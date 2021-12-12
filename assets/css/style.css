@@ -1,0 +1,79 @@
+:root {
+    --primary: rgb(0,128,128);
+    --secondary: rgb(54, 78, 216);
+    --tertiary: rgb(13, 141, 141);
+    --dark: rgba(28, 29, 33, 1);
+    --light: rgba(238, 238, 247, 1);
+}
+
+.search-column{
+    background-color: var(--tertiary);
+}
+
+.list-group-item{
+    background-color: var(--light);
+    line-height: 0.5;
+    border: none;
+    font-family: "Times New Roman", Times, serif;
+    font-size: large;
+    font-weight: bold;
+    color:blue;
+}
+
+.card-body{
+    flex: auto;
+    background:var(--secondary);
+}  
+
+/*button */
+.btn {
+    background-color: var(--secondary);
+    color: var(--light);
+    border-radius: 5px;
+    font-family:   "Montserrat", sans-serif;
+    font-size: smaller;
+    font-weight: bold;
+    border-color: var(--light);
+    border: 2px;
+    width: fit-content;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+  }
+
+/*UV Index Colors */
+span.severe{
+    padding: 3px;
+    background-color: red;
+    color:white;
+}
+
+span.moderate{
+    padding: 3px;
+    background-color: yellow;
+}
+
+span.favorable{
+    padding: 3px;
+    background-color: green;
+    color:white;
+}
+
+/*Gradient Color*/
+body {
+   background: linear-gradient(-45deg, #a1cba5, #d886b9, #5f9aaf, #8cec94);
+   background-size: 1000% 1000%;
+   animation: gradient 14s ease infinite;
+    }
+
+@keyframes gradient {
+0% {
+    background-position: 0% 50%;
+}
+50% {
+    background-position: 100% 50%;
+}
+100% {
+    background-position: 0% 50%;
+}
+
+}
