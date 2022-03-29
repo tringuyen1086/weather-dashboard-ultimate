@@ -13,7 +13,7 @@
 
 ## Description
 
-A web-based weather dashboard shows the current weather of selected city with the upcoming 5-day forcast.
+A web-based weather dashboard shows the current weather of selected city with the upcoming 5-day forecast.
 
 ## Instruction
 
